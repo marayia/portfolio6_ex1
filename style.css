@@ -11,3 +11,20 @@ body {
     background: white;
     height: auto; 
 }
+
+#resultArea {
+    /* Space for the numbers to display */
+    margin-top: 15px;
+    word-wrap: break-word; /* Prevents long strings from breaking the layout */
+}
+
+.prime-badge {
+    /* A very simple version of the "chip" using Bootstrap-like logic */
+    display: inline-block;
+    background: #0d6efd;
+    color: white;
+    padding: 2px 8px;
+    margin: 3px;
+    border-radius: 4px;
+    font-family: monospace;
+}
